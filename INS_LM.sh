@@ -13,7 +13,7 @@ fi
 if [ ! -f "$1" ]
 then
     echo ""
-    echo "Missing filename or Unknow command ! ! !"
+    echo "Missing file name or Unknown command ! ! !"
     echo ""
     echo "Usage:
      >  INS_LM.sh <filename>"
