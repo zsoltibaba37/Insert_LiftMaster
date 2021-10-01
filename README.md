@@ -1,8 +1,8 @@
 # Insert_LiftMaster
 ---
 - What is this script? -> This little script maybe just working for me.
-- what does the script do? -> Inserted a few line to LST file. (NC file)
-- What is LifMaster? -> LiftMaster is a sheet metal loader beside the Trumpf laser cutting machine.
+- What does the script do? -> Inserted a few line to LST file. (NC file)
+- What is LiftMaster? -> LiftMaster is a sheet metal loader beside the Trumpf laser cutting machine.
 ---
 ### What is LST file?
 - TruTops NC file
