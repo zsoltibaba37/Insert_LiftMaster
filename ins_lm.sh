@@ -59,6 +59,9 @@ sed -i "s/DA,'SHL-1',1,1,1,1,1,50.00,50.00,1/DA,'SHL-1',7,1,1,1,1,50.00,50.00,1/
 # insert data to 104th line
 sed -i "104i\\$data" $newfilename &&
 
+# Replace old filename inside new file
+sed -i -e "s/$filename/$newfilename/g" $newfilename
+
 # restore the original type Latin-1
 unix2dos $newfilename > /dev/null 2>&1 &&
 
