@@ -1,6 +1,8 @@
 # Insert_LiftMaster
 ---
-- Copies the original file and insert the LiftMaster section.
+- What is this script? -> This little script maybe just working for me.
+- what does the script do? -> Inserted a few line to LST file. (NC file)
+- What is LifMaster? -> LiftMaster is a sheet metal loader beside the Trumpf laser cutting machine.
 ---
 ### What is LST file?
 - TruTops NC file
