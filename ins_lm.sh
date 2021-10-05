@@ -29,7 +29,7 @@ fi
 
 # checking file extension
 filename=$1
-filext=$(echo $filename | cut -d '.' -f2) &&
+filext=$(echo $filename | cut -d '.' -f3) &&
 
 if [ $filext != 'LST' ]
 then
@@ -40,7 +40,7 @@ then
 fi
 
 # file name - before the filename dot
-filename_=$(echo $filename | cut -d '.' -f1) &&
+filename_=$(echo $filename | cut -d '.' -f2 | cut -d "/" -f2) &&
 
 # the new file ending part
 _filename='_LiftMaster.LST'
